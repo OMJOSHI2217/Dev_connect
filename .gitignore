@@ -1,0 +1,26 @@
+# Dependencies
+node_modules/
+server/node_modules/
+*/node_modules/
+
+# Production builds
+dist/
+server/dist/
+*/dist/
+
+# Local Environment Variables
+.env
+server/.env
+*.env.local
+
+# Hosted Git storage created at runtime
+server/git-repositories/
+git-repositories/
+
+# System and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
+npm-debug.log*
